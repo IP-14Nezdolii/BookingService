@@ -1,0 +1,184 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+header {
+  background-color: #007bff; /* Основний колір фону */
+  color: #fff; /* Колір тексту */
+  display: flex; /* Вирівнювання по flexbox */
+  justify-content: space-between; /* Простір між логотипом та меню */
+  align-items: center; /* Вирівнювання елементів по вертикалі */
+  padding: 15px 30px; /* Збільшене заповнення для ширшого вигляду */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Тінь для додаткового ефекту */
+  margin-bottom: 40px;
+}
+
+.navbar {
+  max-width: 1200px; /* Ширина контейнера */
+  margin: 0 auto; /* Вирівнювання по центру */
+  display: flex; /* Вирівнювання по flexbox */
+  align-items: center; /* Вирівнювання елементів по вертикалі */
+}
+
+.nav-link {
+  color: #fff; /* Колір тексту посилання */
+  margin: 0 15px; /* Відстань між посиланнями */
+  font-weight: 500; /* Товщина шрифту */
+  transition: color 0.3s, transform 0.2s; /* Плавний перехід для кольору та масштабування */
+}
+
+.nav-link:hover {
+  color: lightslategray;
+
+
+  .apartment-card {
+    flex: 0 1 calc(33% - 20px);
+    background: #e9ecef;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+
+  .apartment-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .apartment-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .apartment-details {
+    padding: 15px;
+  }
+
+  .apartment-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px;
+  }
+
+  .apartment-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .booking-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .booking-button:hover {
+    background-color: #218838;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .menu {
+    background-color: #f8f9fa;
+  }
+
+  .navbar-nav .nav-item {
+    margin-right: 15px;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    text-decoration: none;
+    color: #007bff;
+  }
+
+  .navbar-nav .nav-item .nav-link:hover {
+    text-decoration: underline;
+  }
+}
+/* Стилі для мобільних пристроїв */
+@media (max-width: 768px) {
+  /* Для компонента Home */
+  .home {
+    padding: 10px;
+  }
+  .navbar-toggler {
+    margin-left: 150px;
+  }
+
+  .properties {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .property-card {
+    margin-bottom: 20px;
+  }
+
+  /* Для PropertyDetails */
+  .property-details .property-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .property-details .property-image-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .map-container iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  /* UserProfile */
+  .profile-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  /* Reviews Section */
+  .review-list {
+    padding: 10px;
+  }
+
+  .review-card {
+    padding: 10px;
+  }
+
+  /* Favorites Section */
+  .favorites-list {
+    padding: 10px;
+  }
+
+  /* Form components */
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .logo {
+    margin-left: 15px;  /* Відступ ліворуч від логотипа */
+  }
+  .price {
+    height: 40px;
+  }
+}
+
