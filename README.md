@@ -42,3 +42,22 @@ Perform the following steps:
      mvn spring-boot:run
     
 ## Frontend
+- Developing in the “front” branch
+- Technology stack: Vue.js
+### Launch Instructions
+Before starting the project, make sure that the following programs are installed on your system:
+1. Node.js (v16 or higher):
+- Download and install Node.js from the official Node.js website.
+- To verify Node.js installation, run:
+   ```bash
+    node -v
+- Verify npm (Node Package Manager) version:
+   ```bash
+    npm -v
+- Run the following command in the project directory to install all required dependencies:
+   ```bash
+    npm install
+- Launch the project using Vite's development server:
+   ```bash
+    npm run dev
+
