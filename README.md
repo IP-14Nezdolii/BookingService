@@ -13,7 +13,7 @@ with the ability to view detailed information, photos, and reviews.
 - Test Engineer: Грубрин Роман
 
 ### Project structure
-Frontend and backend have different branches.
+Frontend and backend developeds in different branches.
 
 ## Backend
 - Developing in the “back” branch
