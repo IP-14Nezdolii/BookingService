@@ -7,6 +7,8 @@ to their needs and budget. The service should provide a wide range of options
 housing: apartments, houses, hotels, and other real estate, 
 with the ability to view detailed information, photos, and reviews.
 
+#### API Documentation: [swaggerhub](https://app.swaggerhub.com/apis/VladiNez/BookingService/v0.7.0#/)
+
 ### Project team
 - Front-end developer: Ганжа Христина
 - Backend developer: Нездолій Владислав
