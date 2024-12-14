@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class Lab2ApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void controllerTest() {
 	}
 
 }
