@@ -25,6 +25,7 @@ public class SecurityConfig {
                                 .requestMatchers("/api/booking/create").hasAuthority(UserRole.USER.name())
                                 .requestMatchers("/api/booking/**").authenticated()
 
+                                .requestMatchers("/api/post").permitAll()
                                 .requestMatchers("/api/post/posts/page").permitAll()
                                 .requestMatchers("/api/post/photo").permitAll()
 
