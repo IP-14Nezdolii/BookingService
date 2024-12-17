@@ -37,7 +37,7 @@ import lombok.RequiredArgsConstructor;
 public class PostController {
     private final PostService postService;
 
-    @GetMapping("/posts/page")
+    @PutMapping("/posts/page")
     public ResponseEntity<List<Post>> getPage(
         @RequestParam(name = "page-number") int number,
         @RequestParam(name = "page-size") int size,
